@@ -1,0 +1,14 @@
+.big {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+  align-items: end;
+  place-content: end;
+}
+.container {
+  border-radius: 50%;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}

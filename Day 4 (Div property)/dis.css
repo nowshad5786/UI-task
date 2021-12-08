@@ -1,0 +1,23 @@
+.one,
+.two {
+  border: 2px solid black;
+  margin-top: 200px;
+  display: inline;
+  background-color: peachpuff;
+}
+.three,
+.four {
+  border: 2px solid black;
+  margin-top: 100px;
+  display: block;
+  width: 150px;
+  background-color: aliceblue;
+}
+.five,
+.six {
+  border: 2px solid black;
+  margin-top: 100px;
+  display: inline-block;
+  width: 200px;
+  background-color: plum;
+}

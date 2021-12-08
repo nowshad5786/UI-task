@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgray;
+}
+.headers {
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+.gri {
+  margin-left: 600px;
+  margin-right: 450px;
+  display: grid;
+  grid-template-rows: 30px 30px 30px 30px 30px;
+  text-align: center;
+  background-color: whitesmoke;
+}

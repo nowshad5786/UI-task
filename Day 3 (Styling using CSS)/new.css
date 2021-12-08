@@ -1,0 +1,47 @@
+a:visited {
+  color: pink;
+}
+a:focus {
+  color: royalblue;
+}
+a:link {
+  color: green;
+}
+ul:hover {
+  color: red;
+  background-color: burlywood;
+}
+p::first-line {
+  color: blueviolet;
+}
+p::first-letter {
+  font-size: 2rem;
+}
+p::after {
+  content: "*";
+}
+p::before {
+  content: "$";
+}
+
+li:first-child {
+  color: maroon;
+}
+li:last-child {
+  color: violet;
+}
+li:nth-child(odd) {
+  background-color: peachpuff;
+}
+li:nth-of-type(even) {
+  background-color: lightpink;
+}
+[class] {
+  color: yellow;
+}
+[class="big"] {
+  color: blueviolet;
+}
+div h5 {
+  font-style: italic;
+}
